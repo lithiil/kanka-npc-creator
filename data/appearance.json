@@ -1,0 +1,6 @@
+{
+  "hair_type": ["straight", "wavy", "curly"],
+  "hair_color": ["brown", "white", "blond", "red", "black"],
+  "eyes": ["hazel", "blue", "green", "brown"],
+  "marks": ["Left cheek scar", "None", "Missing middle finger on right hand"]
+}
