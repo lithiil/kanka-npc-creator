@@ -120,11 +120,12 @@ class NpcGenerator:
                 'personality_name': ['Goals', 'Fears'],
                 'personality_entry': [random.choice(data['personality_options']['goals']),
                                       random.choice(data['personality_options']['fears'])],
-                'appearance_name': ['Hair', 'Eyes', 'Height', 'Marks'],
+                'appearance_name': ['Hair', 'Eyes', 'Height', 'Marks', 'Body Type'],
                 'appearance_entry': [random.choice(data['appearance_options']['hair_type']),
                                      random.choice(data['appearance_options']['eyes']),
-                                     str(round(random.uniform(4.1, 7.5), 1)) + " feet",
-                                     random.choice(data['appearance_options']['marks'])]
+                                     str(round(random.uniform(4.1, 6.9), 1)) + " feet",
+                                     random.choice(data['appearance_options']['marks']),
+                                     random.choice(data['appearance_options']['body_type'])]
             }
 
             npcs.append(character)

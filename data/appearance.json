@@ -1,6 +1,74 @@
 {
-  "hair_type": ["straight", "wavy", "curly"],
-  "hair_color": ["brown", "white", "blond", "red", "black"],
-  "eyes": ["hazel", "blue", "green", "brown"],
-  "marks": ["Left cheek scar", "None", "Missing middle finger on right hand"]
+  "body_type": [
+    "Skinny",
+    "Average",
+    "Muscular",
+    "Very Muscular",
+    "Lean",
+    "Thin and Frail",
+    "A bit fat",
+    "Fat",
+    "Very Fat",
+    "Average"
+  ],
+  "hair_type": [
+    "Bald",
+    "Braided",
+    "Curly",
+    "Dreadlocks",
+    "Frazzled",
+    "Greasy",
+    "Limp",
+    "Long",
+    "Messy",
+    "Strange hairstyle",
+    "Pony-tail",
+    "Short",
+    "Straight",
+    "Streaked",
+    "Thick",
+    "Thinning",
+    "Very Long",
+    "Wavy",
+    "Well groomed",
+    "Wiry"
+  ],
+  "hair_color": [
+    "brown",
+    "white",
+    "blond",
+    "red",
+    "black"
+  ],
+  "eyes": [
+    "hazel",
+    "blue",
+    "green",
+    "brown"
+  ],
+  "marks": [
+    "Left cheek scar",
+    "None",
+    "Missing middle finger on right hand",
+    "Acne",
+    "Beard",
+    "Buck-toothed",
+    "Bushy eyebrows",
+    "Chiseled",
+    "Doe-eyed",
+    "Distinctive nose",
+    "Gap-toothed",
+    "Goatee",
+    "Grizzled",
+    "Missing ear",
+    "Missing eye",
+    "Missing teeth",
+    "Moustache",
+    "Pierced",
+    "Pock-marked",
+    "Sideburns",
+    "Squinty",
+    "Stained teeth",
+    "Weather-beaten"
+  ]
 }
