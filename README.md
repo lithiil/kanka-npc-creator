@@ -11,18 +11,26 @@ as you want in your kanka campaign.
 3. Create a Personal Access Token on your kanka account as described [here](https://kanka.io/en-US/docs/1.0/setup)
 4. Create a .env file based on the .env_example . The only env variable that you will
 probably want to modify is the *APITOKEN*
-5. Create a python script that uses the Generator class as shown in the example.py
-file
+5. Run `python3 ./npc-gen.py`
 
-Below is an example of how to create 5 random NPCs in the campaign called "My Cool Campaign":
+By default it will check for a valid APITOKEN and complain if one is not set. 
 
-```python
-from Generator import NpcGenerator
-
-gen = NpcGenerator()
-
-gen.create_npcs('My Cool Campaign', 5)
+In additon to setting parameters in `.env` you can also specify some inline with the command. These options can be seen with `--help`
 ```
+python3 ./npc-gen.py --help
+usage: npc-gen.py [-h] [--host HOST] [--campaign CAMPAIGN] [--count COUNT]
+
+Generate random NPCs in a Kanka campaign.
+
+options:
+  -h, --help           show this help message and exit
+  --host HOST          Set API base DOMAINNAME (e.g. kanka.example.com)
+  --campaign CAMPAIGN  Specify campaign name directly
+  --count COUNT        Number of NPCs to generate
+```
+
+If no options are specified, it will use the settings in `.env` to connect to the server and poll the campaigns prompting you to select oee
+and how many NPCs you wish to create
 
 The characters created by this script have the "random_npc" type. So that
 you can filter them out easily.

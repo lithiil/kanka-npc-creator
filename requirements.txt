@@ -1,2 +1,9 @@
+certifi==2025.4.26
+chardet==3.0.4
+charset-normalizer==3.4.2
+Faker==37.1.0
+idna==2.10
 python-dotenv==0.12.0
-requests==2.23.0
+requests==2.32.3
+tzdata==2025.2
+urllib3==1.26.20
